@@ -1,0 +1,29 @@
+plugins {
+    // 책 버전과 다르게 RELEASE 사라짐
+    id 'org.springframework.boot' version '2.4.1'
+    // 스프링 부트의 의존성들을 관리해 주는 플러그인이라 꼭 추가
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
+
+repositories {
+    // 본인 제작 라이브러리 업로드를 위해서는 많은 과정과 설정이 필요하다는 단점 존재
+    mavenCentral()
+    // 본인 제작 라이브러리 업로드를 간단하게 하였고 자동으로 mavenCentral()에 업로드 연동
+    jcenter()
+}
+
+// for Junit 5
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    // 주의! implementation 내부에서 버전 명시 하지 않아야함.
+    // Gradle 6 부터 compile -> implementation 으로 변경
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+}
