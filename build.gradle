@@ -6,7 +6,7 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'kr.domo'
 version '1.0-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 
 repositories {
@@ -26,4 +26,10 @@ dependencies {
     // Gradle 6 부터 compile -> implementation 으로 변경
     implementation('org.springframework.boot:spring-boot-starter-web')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    // lombok
+    implementation('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+    testImplementation('org.projectlombok:lombok')
+    testAnnotationProcessor('org.projectlombok:lombok')
 }
