@@ -1,5 +1,6 @@
 package kr.domo.book.springboot.domain.posts;
 
+import kr.domo.book.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,7 +19,7 @@ import javax.persistence.Id;
 // 테이블과 링크될 클래스임을 나타내며 클래스 네이밍은 카멜표기법, 테이블 네이밍은 _표기법을 쓴다.
 @Entity
 // 실제 DB 테이블과 매칭될 클래스, Entity 클래스라고도 부른다.
-public class Posts {
+public class Posts extends BaseTimeEntity {
     // 해당 테이블의 PK 필드를 나타낸다.
     @Id
     // PK의 생성 규칙 정의, 스프링 부트 2.0에서는 GenerationType.IDENTITY 옵션을 추가해야지 auto_increment 적용
@@ -41,6 +42,11 @@ public class Posts {
         this.title = title;
         this.content = content;
         this.author = author;
+    }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
     }
 }
 
