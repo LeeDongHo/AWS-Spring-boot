@@ -1,10 +1,10 @@
 kr/domo/book/springboot/web/dto/HelloResponseDtoTest.java
  kr.domo.book.springboot.web.dto.HelloResponseDtoTest
-kr/domo/book/springboot/web/PostsApiControllerTest.java
- kr.domo.book.springboot.web.PostsApiControllerTest
-kr/domo/book/springboot/web/HelloControllerTest.java
- kr.domo.book.springboot.web.HelloControllerTest
-kr/domo/book/springboot/domain/posts/PostsRepositoryTest.java
- kr.domo.book.springboot.domain.posts.PostsRepositoryTest
 kr/domo/book/springboot/web/IndexControllerTest.java
  kr.domo.book.springboot.web.IndexControllerTest
+kr/domo/book/springboot/web/PostsApiControllerTest.java
+ kr.domo.book.springboot.web.PostsApiControllerTest
+kr/domo/book/springboot/domain/posts/PostsRepositoryTest.java
+ kr.domo.book.springboot.domain.posts.PostsRepositoryTest
+kr/domo/book/springboot/web/HelloControllerTest.java
+ kr.domo.book.springboot.web.HelloControllerTest

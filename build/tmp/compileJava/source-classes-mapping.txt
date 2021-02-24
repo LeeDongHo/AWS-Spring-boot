@@ -1,29 +1,53 @@
+kr/domo/book/springboot/web/IndexController.java
+ kr.domo.book.springboot.web.IndexController
+kr/domo/book/springboot/config/WebConfig.java
+ kr.domo.book.springboot.config.WebConfig
 kr/domo/book/springboot/web/dto/PostsResponseDto.java
  kr.domo.book.springboot.web.dto.PostsResponseDto
-kr/domo/book/springboot/web/HelloController.java
- kr.domo.book.springboot.web.HelloController
+kr/domo/book/springboot/web/dto/PostsListResponseDto.java
+ kr.domo.book.springboot.web.dto.PostsListResponseDto
 kr/domo/book/springboot/domain/posts/Posts.java
  kr.domo.book.springboot.domain.posts.Posts
  kr.domo.book.springboot.domain.posts.Posts$PostsBuilder
-kr/domo/book/springboot/web/dto/HelloResponseDto.java
- kr.domo.book.springboot.web.dto.HelloResponseDto
-kr/domo/book/springboot/Application.java
- kr.domo.book.springboot.Application
+kr/domo/book/springboot/config/auth/SecurityConfig.java
+ kr.domo.book.springboot.config.auth.SecurityConfig
 kr/domo/book/springboot/web/dto/PostsUpdateRequestDto.java
  kr.domo.book.springboot.web.dto.PostsUpdateRequestDto
  kr.domo.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+kr/domo/book/springboot/domain/user/User.java
+ kr.domo.book.springboot.domain.user.User
+ kr.domo.book.springboot.domain.user.User$UserBuilder
+kr/domo/book/springboot/web/PostsApiController.java
+ kr.domo.book.springboot.web.PostsApiController
+kr/domo/book/springboot/config/auth/LoginUserArgumentResolver.java
+ kr.domo.book.springboot.config.auth.LoginUserArgumentResolver
+kr/domo/book/springboot/web/dto/HelloResponseDto.java
+ kr.domo.book.springboot.web.dto.HelloResponseDto
+kr/domo/book/springboot/domain/user/UserRepository.java
+ kr.domo.book.springboot.domain.user.UserRepository
+kr/domo/book/springboot/config/auth/CustomOAuth2UserService.java
+ kr.domo.book.springboot.config.auth.CustomOAuth2UserService
 kr/domo/book/springboot/domain/BaseTimeEntity.java
  kr.domo.book.springboot.domain.BaseTimeEntity
+kr/domo/book/springboot/web/HelloController.java
+ kr.domo.book.springboot.web.HelloController
+kr/domo/book/springboot/config/auth/LoginUser.java
+ kr.domo.book.springboot.config.auth.LoginUser
+kr/domo/book/springboot/service/posts/PostsService.java
+ kr.domo.book.springboot.service.posts.PostsService
+kr/domo/book/springboot/domain/user/Role.java
+ kr.domo.book.springboot.domain.user.Role
+kr/domo/book/springboot/domain/posts/PostsRepository.java
+ kr.domo.book.springboot.domain.posts.PostsRepository
+kr/domo/book/springboot/config/auth/dto/SessionUser.java
+ kr.domo.book.springboot.config.auth.dto.SessionUser
 kr/domo/book/springboot/web/dto/PostsSaveRequestDto.java
  kr.domo.book.springboot.web.dto.PostsSaveRequestDto
  kr.domo.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-kr/domo/book/springboot/web/dto/PostsListResponseDto.java
- kr.domo.book.springboot.web.dto.PostsListResponseDto
-kr/domo/book/springboot/domain/posts/PostsRepository.java
- kr.domo.book.springboot.domain.posts.PostsRepository
-kr/domo/book/springboot/service/posts/PostsService.java
- kr.domo.book.springboot.service.posts.PostsService
-kr/domo/book/springboot/web/IndexController.java
- kr.domo.book.springboot.web.IndexController
-kr/domo/book/springboot/web/PostsApiController.java
- kr.domo.book.springboot.web.PostsApiController
+kr/domo/book/springboot/config/auth/dto/OAuthAttributes.java
+ kr.domo.book.springboot.config.auth.dto.OAuthAttributes
+ kr.domo.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+kr/domo/book/springboot/config/JpaConfig.java
+ kr.domo.book.springboot.config.JpaConfig
+kr/domo/book/springboot/Application.java
+ kr.domo.book.springboot.Application
